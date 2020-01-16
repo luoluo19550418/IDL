@@ -1,0 +1,13 @@
+1、交互式数据语言IDL：Interactive Data Language，便于科学数据分析和可视化表达。
+
+2、背景：ITT Visual Information Solutions公司
+        1975，实现IDL
+        1994，用IDL开发ENVI（遥感软件）
+        2006，ITT VIS
+        2008，IDL7.0发布，基于Eclipse的开放环境
+        2010，IDL8.0 
+
+3、特点：算法底层优化，运行速度快
+        命令行启动demo
+
+4、IDL应用：数学分析、大气科学、天文、地质、制造业等，可混编
