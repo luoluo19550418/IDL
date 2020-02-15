@@ -1,0 +1,33 @@
+IDL程序或称IDL程序模块可以分为四类：（1）批处理文件；（2）主程序；（3）过程；（4）函数
+一、IDL批处理文件
+1、文件
+2、编译：IDL> @filename.pro
+
+二、IDL过程和函数：编写IDL过程相当于创造另外一个IDL命令
+1、过程文件
+;test.pro
+pro pro1 x
+  print,x
+end
+function func1,x,y
+  print,"this is function"
+  print,x,y
+  return,[x,y]
+end
+2、过程文件的编译：.compile test.pro
+3、过程调用：
+IDL>pro1,10
+IDL>a=func1(1,2) & print,"a=",a
+
+三、IDL主程序：
+1、文件
+2、编译：
+IDL> .run filename.pro
+IDL> .go
+
+备注：
+一个pro程序，以pro开头，end结尾
+&符号是语句分隔符，将一行中多条语句分隔开
+
+参考：
+     IDL_Manual(IDL编程技术).pdf_航天星图(北京)有限公司_200601
