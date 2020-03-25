@@ -24,6 +24,7 @@ IDL>a=func1(1,2) & print,"a=",a
 2、编译：
 IDL> .run filename.pro
 IDL> .go
+与主程序命名相同的过程为主过程。
 
 备注：
 一个pro程序，以pro开头，end结尾
