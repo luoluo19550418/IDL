@@ -16,7 +16,7 @@ function func1,x,y
 end
 2、过程文件的编译：.compile test.pro
 3、过程调用：
-IDL>pro1,10
+IDL>pro1,10 （如果是文件名，可能需要加引号：pro1,"aa.fits"）
 IDL>a=func1(1,2) & print,"a=",a
 
 三、IDL主程序：
